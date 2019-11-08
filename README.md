@@ -1,9 +1,8 @@
-# Reconhecimento Facial
-Reconhecimento Facial usando OpenCV e Haar Cascade
+# Reconhecimento Facial usando OpenCV e Haar Cascade
+
+# IMPORTANTE: Este Documento se refere a Pasta Versão_0.2
 
 Notas Importantes a respeito da lógica e funcionamento desse reconhecedor Facial:
-
-Este Documento se refere a Pasta Versão_0.2
 
 Siga as etapas na ordem sendo:
 

@@ -1,6 +1,6 @@
 # Reconhecimento Facial usando OpenCV e Haar Cascade
 
-# IMPORTANTE: Este Documento se refere a Pasta Versão_0.2
+#IMPORTANTE: Este Documento se refere a Pasta Versão_0.2
 
 Notas Importantes a respeito da lógica e funcionamento desse reconhecedor Facial:
 
@@ -26,7 +26,7 @@ definido dentro do código pela váriavel "face_id"
 será usado, sendo que atualmente está definido como um reconhecedor de faces, onde qualquer rosto
 dentro do frame será capturado
 
-#(2)Treinamento.py
+# (2)Treinamento.py
 Esse arquivo possui a função de mapear todos as faces dos usuários cadastrados anteriormente
 , o arquivo gerado possui a extensão ".yml", com o nome de "trainer" e se envontra dentro
 da pasta "Arquivo_Treinado", apenas é necessário executar este arquivo para iniciar o treinamento

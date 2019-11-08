@@ -3,6 +3,8 @@ Reconhecimento Facial usando OpenCV e Haar Cascade
 
 Notas Importantes a respeito da lógica e funcionamento desse reconhecedor Facial:
 
+Este Documento se refere a Pasta Versão_0.2
+
 Siga as etapas na ordem sendo:
 (1)Detector_Facial.py
 (2)Treinamento.py
@@ -76,13 +78,13 @@ Nome = "Desconhecido"
             cv2.rectangle(im, (x - 20, y - 20), (x + w + 20, y + h + 20), (0, 0, 255), 4)  # Retangulo do rosto Vermelho
             cv2.rectangle(im, (x - 22, y - 90), (x + w + 22, y - 22), (0, 0, 255), -1)  # Retangulo do nome Vermelho
 
-Outra função caso não identifique a pessoa, é tirar prints (capturas de tela) do momento em que detectou o rosto desconhecido, essas imagens capturadas são armazenadas no diretório "Faces_Anonimas\Print_Frame", 
+Outra função caso não identifique a pessoa, é tirar prints (capturas de tela) do momento em que detectou o rosto desconhecido, essas imagens capturadas são armazenadas no diretório "Faces_Anonimas\Print_Frame"
 
-    cv2.imwrite("Faces_Anonimas/Print_Frame/Usuario." + str(date.today()) + '.' + str(count) + ".jpg", im)
+	cv2.imwrite("Faces_Anonimas/Print_Frame/Usuario." + str(date.today()) + '.' + str(count) + ".jpg", im)
 
 além de tirar os prints, também é capturado somente o rosto não conhecido que foi capturado dentro do bauding box (Retangulo), para que o dono do sistema possa  analisar posteriormente, esses rostos estão no diretorio "Faces_Anonimas\Capturas_Faciais"
-    
-    cv2.imwrite("Faces_Anonimas/Capturas_Faciais/Usuario." + str(date.today()) + '.' + str(count) + ".jpg", im[y:y+h, x:x+w])
+
+	cv2.imwrite("Faces_Anonimas/Capturas_Faciais/Usuario." + str(date.today()) + '.' + str(count) + ".jpg", im[y:y+h, x:x+w])
 
 Ambas imagens capturadas são salvas com o formato "JPG" sendo o formato do nome "Usuario" seguido da data que foi capturada e o número do frame onde foi capturada
 exemplo: Usuario.08-11-2019.25.jpg

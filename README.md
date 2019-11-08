@@ -6,9 +6,12 @@ Notas Importantes a respeito da lógica e funcionamento desse reconhecedor Facia
 Este Documento se refere a Pasta Versão_0.2
 
 Siga as etapas na ordem sendo:
-(1)Detector_Facial.py
-(2)Treinamento.py
-(3)Reconhecimento_Facial.py
+
+(1)Detector_Facial.py (1°Etapa)
+
+(2)Treinamento.py (2°Etapa)
+
+(3)Reconhecimento_Facial.py (3°Etapa)
 
 
 #(1)Detector_Facial.py

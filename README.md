@@ -1,4 +1,4 @@
-# Reconhecimento-Facial
+# Reconhecimento Facial
 Reconhecimento Facial usando OpenCV e Haar Cascade
 
 Notas Importantes a respeito da lógica e funcionamento desse reconhecedor Facial:
@@ -14,7 +14,7 @@ Siga as etapas na ordem sendo:
 (3)Reconhecimento_Facial.py (3°Etapa)
 
 
-#(1)Detector_Facial.py
+# (1)Detector_Facial.py
 Esse arquivo é responsável por detectar que existe uma face no frame capturado do video
 e aplicar a escala de cinza, logo após redimensionar para salvar apenas a imagem dentro do
 Baunding Box
@@ -33,7 +33,7 @@ Esse arquivo possui a função de mapear todos as faces dos usuários cadastrado
 da pasta "Arquivo_Treinado", apenas é necessário executar este arquivo para iniciar o treinamento
 
 
-#(3)Reconhecimento_Facial.py
+# (3)Reconhecimento_Facial.py
 Esse arquivo é considerado o principal, pois é onde de fato ocorre o reconhecimento facial,
 a váriavel "recognizer" com o método "read", fazem a leitura do arquivo com o treinamento realizado
 na etapa anterior
